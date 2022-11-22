@@ -1,0 +1,530 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>概率论与数理统计 · 我的Python笔记本</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Winnerzr">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="数值计算方法.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="概率论与数理统计.html">
+            
+                <a href="概率论与数理统计.html">
+            
+                    
+                    概率论与数理统计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="数值计算方法.html">
+            
+                <a href="数值计算方法.html">
+            
+                    
+                    数值计算方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >概率论与数理统计</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x53C2;&#x6570;&#x7684;&#x70B9;&#x4F30;&#x8BA1;">&#x53C2;&#x6570;&#x7684;&#x70B9;&#x4F30;&#x8BA1;</h1>
+<h2 id="&#x56DE;&#x987E;&#x4E0A;&#x4E00;&#x8282;&#x70B9;&#x4F30;&#x8BA1;">&#x56DE;&#x987E;&#x4E0A;&#x4E00;&#x8282;&#x70B9;&#x4F30;&#x8BA1;</h2>
+<blockquote>
+<p><strong><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110194140941.png" alt="image-20221110194140941"></strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110194333613.png" alt="image-20221110194333613"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110194353016.png" alt="image-20221110194353016"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110195119482.png" alt="image-20221110195119482"></p>
+</blockquote>
+<h2 id="&#x6700;&#x5927;&#x4F3C;&#x7136;&#x4F30;&#x8BA1;">&#x6700;&#x5927;&#x4F3C;&#x7136;&#x4F30;&#x8BA1;</h2>
+<h3 id="&#x7B2C;&#x4E00;&#x79CD;&#x60C5;&#x5F62;">&#x7B2C;&#x4E00;&#x79CD;&#x60C5;&#x5F62;</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110195907082.png" alt="image-20221110195907082"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110200145544.png" alt="image-20221110200145544"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110200751380.png" alt="image-20221110200751380"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110200907199.png" alt="image-20221110200907199"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201039207.png" alt="image-20221110201039207"></p>
+<h4 id="&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x7684;&#x6BD4;&#x8F83;">&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x7684;&#x6BD4;&#x8F83;</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201332641.png" alt="image-20221110201332641"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201412588.png" alt="image-20221110201412588"></p>
+<h3 id="&#x7B2C;&#x4E8C;&#x79CD;&#x60C5;&#x5F62;">&#x7B2C;&#x4E8C;&#x79CD;&#x60C5;&#x5F62;</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201557373.png" alt="image-20221110201557373"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201719484.png" alt="image-20221110201719484"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201743700.png" alt="image-20221110201743700"></p>
+<h3 id="&#x7B2C;&#x4E09;&#x79CD;&#x60C5;&#x5F62;">&#x7B2C;&#x4E09;&#x79CD;&#x60C5;&#x5F62;</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110201919176.png" alt="image-20221110201919176"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110202307507.png" alt="image-20221110202307507"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110202549259.png" alt="image-20221110202549259"></p>
+<h3 id="&#x6700;&#x5927;&#x4F3C;&#x7136;&#x4F30;&#x8BA1;&#x7684;&#x6027;&#x8D28;">&#x6700;&#x5927;&#x4F3C;&#x7136;&#x4F30;&#x8BA1;&#x7684;&#x6027;&#x8D28;</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110202643113.png" alt="image-20221110202643113"></p>
+<h2 id="&#x4F30;&#x8BA1;&#x91CF;&#x7684;&#x8BC4;&#x9009;&#x6807;&#x51C6;">&#x4F30;&#x8BA1;&#x91CF;&#x7684;&#x8BC4;&#x9009;&#x6807;&#x51C6;</h2>
+<blockquote>
+<ol>
+<li>&#x1F21A;&#xFE0F;&#xFE0F;&#x504F;&#x6027;</li>
+<li>&#x6709;&#x6548;&#x6027;</li>
+<li>&#x4E00;&#x81F4;&#x6027;</li>
+</ol>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110203428087.png" alt="image-20221110203428087"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110203605756.png" alt="image-20221110203605756"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110203715021.png" alt="image-20221110203715021"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110204518725.png" alt="image-20221110204518725"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110205028027.png" alt="image-20221110205028027"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110205433659.png" alt="image-20221110205433659"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110205613326.png" alt="image-20221110205613326"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110205747560.png" alt="image-20221110205747560"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110205908643.png" alt="image-20221110205908643"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210047956.png" alt="image-20221110210047956"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210117863.png" alt="image-20221110210117863"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210256800.png" alt="image-20221110210256800"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210625421.png" alt="image-20221110210625421"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210743987.png" alt="image-20221110210743987"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110210902946.png" alt="image-20221110210902946"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110211004998.png" alt="image-20221110211004998"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110211816739.png" alt="image-20221110211816739"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110212309733.png" alt="image-20221110212309733"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110212641548.png" alt="image-20221110212641548"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110212810856.png" alt="image-20221110212810856"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110212947168.png" alt="image-20221110212947168"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110213148167.png" alt="image-20221110213148167"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110213241192.png" alt="image-20221110213241192"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110214513437.png" alt="image-20221110214513437"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110215014196.png" alt="image-20221110215014196"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110215105893.png" alt="image-20221110215105893"></p>
+<h2 id="&#x5355;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;">&#x5355;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110220322742.png" alt="image-20221110220322742"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110220539424.png" alt="image-20221110220539424"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110220823656.png" alt="image-20221110220823656"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221110220941435.png" alt="image-20221110220941435"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111093528057.png" alt="image-20221111093528057"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111095100939.png" alt="image-20221111095100939"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111095951690.png" alt="image-20221111095951690"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111100129995.png" alt="image-20221111100129995"></p>
+<h2 id="&#x4E24;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;">&#x4E24;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111100540893.png" alt="image-20221111100540893"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111100724475.png" alt="image-20221111100724475"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111100948154.png" alt="image-20221111100948154"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111101205576.png" alt="image-20221111101205576"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111102108497.png" alt="image-20221111102108497"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111102150097.png" alt="image-20221111102150097"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111102314857.png" alt="image-20221111102314857"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111102341763.png" alt="image-20221111102341763"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111102559014.png" alt="image-20221111102559014"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111103126383.png" alt="image-20221111103126383"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111103345777.png" alt="image-20221111103345777"></p>
+<h2 id="&#x5355;&#x4FA7;&#x7F6E;&#x4FE1;&#x533A;&#x95F4;">&#x5355;&#x4FA7;&#x7F6E;&#x4FE1;&#x533A;&#x95F4;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111103926528.png" alt="image-20221111103926528"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111104656120.png" alt="image-20221111104656120"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111104726188.png" alt="image-20221111104726188"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111110214911.png" alt="image-20221111110214911"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111110655560.png" alt="image-20221111110655560"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111111112293.png" alt="image-20221111111112293"></p>
+<h2 id="&#x975E;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;">&#x975E;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x7684;&#x533A;&#x95F4;&#x4F30;&#x8BA1;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111182601524.png" alt="image-20221111182601524"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111183052782.png" alt="image-20221111183052782"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111183246275.png" alt="image-20221111183246275"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111184723499.png" alt="image-20221111184723499"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111184938587.png" alt="image-20221111184938587"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111190425406.png" alt="image-20221111190425406"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111190519542.png" alt="image-20221111190519542"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111192220252.png" alt="image-20221111192220252"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111192418280.png" alt="image-20221111192418280"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111192730591.png" alt="image-20221111192730591"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111192749233.png" alt="image-20221111192749233"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111193148321.png" alt="image-20221111193148321"></p>
+<h1 id="&#x5047;&#x8BBE;&#x68C0;&#x9A8C;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;">&#x5047;&#x8BBE;&#x68C0;&#x9A8C;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;</h1>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111203159997.png" alt="image-20221111203159997"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111203244837.png" alt="image-20221111203244837"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111205851467.png" alt="image-20221111205851467"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221111215125875.png" alt="image-20221111215125875"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112092743985.png" alt="image-20221112092743985"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112095746568.png" alt="image-20221112095746568"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112100152318.png" alt="image-20221112100152318"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112112403853.png" alt="image-20221112112403853"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112112641111.png" alt="image-20221112112641111"></p>
+<h2 id="&#x5355;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;">&#x5355;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x4E0E;&#x65B9;&#x5DEE;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112114628003.png" alt="image-20221112114628003"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112120034467.png" alt="image-20221112120034467"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112121741019.png" alt="image-20221112121741019"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112121813178.png" alt="image-20221112121813178"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112132723259.png" alt="image-20221112132723259"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112133024341.png" alt="image-20221112133024341"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112133056228.png" alt="image-20221112133056228"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112133948871.png" alt="image-20221112133948871"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112134136208.png" alt="image-20221112134136208"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112162306854.png" alt="image-20221112162306854"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112162549606.png" alt="image-20221112162549606"></p>
+<h2 id="&#x4E24;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x5DEE;&#x4E0E;&#x65B9;&#x5DEE;&#x6BD4;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;">&#x4E24;&#x4E2A;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x5747;&#x503C;&#x5DEE;&#x4E0E;&#x65B9;&#x5DEE;&#x6BD4;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112165536603.png" alt="image-20221112165536603"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112165615300.png" alt="image-20221112165615300"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112165705584.png" alt="image-20221112165705584"></p>
+<p><img src="C:\Users\winnerzr\AppData\Roaming\Typora\typora-user-images\image-20221112165956940.png" alt="image-20221112165956768"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112172430979.png" alt="image-20221112172430979"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112172600628.png" alt="image-20221112172600628"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112175017819.png" alt="image-20221112175017819"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112175111483.png" alt="image-20221112175111483"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112175305405.png" alt="image-20221112175305405"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112175354275.png" alt="image-20221112175354275"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112175729935.png" alt="image-20221112175729935"></p>
+<h2 id="&#x975E;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x53C2;&#x6570;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;">&#x975E;&#x6B63;&#x6001;&#x603B;&#x4F53;&#x53C2;&#x6570;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;</h2>
+<blockquote>
+<p>&#x5927;&#x6837;&#x672C;&#xFF08;&#x6837;&#x672C;&#x5BB9;&#x91CF;&#xFF4E;&#x300B;50&#xFF09;<img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113091744322.png" alt="image-20221113091744322"></p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113103121570.png" alt="image-20221113103121570"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113103141390.png" alt="image-20221113103141390"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113104007136.png" alt="image-20221113104007136"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113104412660.png" alt="image-20221113104412660"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113104609197.png" alt="image-20221113104609197"></p>
+<h2 id="&#x603B;&#x4F53;&#x5206;&#x5E03;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;">&#x603B;&#x4F53;&#x5206;&#x5E03;&#x7684;&#x5047;&#x8BBE;&#x68C0;&#x9A8C;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113111132464.png" alt="image-20221113111132464"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113111948416.png" alt="image-20221113111948416"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113112044299.png" alt="image-20221113112044299"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113112608187.png" alt="image-20221113112608187"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113112948382.png" alt="image-20221113112948382"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113155753543.png" alt="image-20221113155753543"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113160731551.png" alt="image-20221113160731551"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113160748052.png" alt="image-20221113160748052"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113160939508.png" alt="image-20221113160939508"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113163058421.png" alt="image-20221113163058421"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113164322012.png" alt="image-20221113164322012"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113171430728.png" alt="image-20221113171430728"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113173443553.png" alt="image-20221113173443553"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113175555084.png" alt="image-20221113175555084"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113175638059.png" alt="image-20221113175638059"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113180036788.png" alt="image-20221113180036788"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113182813424.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113182635065.png" alt="image-20221113182635065"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221113194303485.png" alt="image-20221113194303485"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114125806481.png" alt="image-20221114125806481"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114125829866.png" alt="image-20221114125829866"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114130209213.png" alt="image-20221114130209213"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114133605032.png" alt="image-20221114133605032"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114134622203.png" alt="image-20221114134622203"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114134801170.png" alt="image-20221114134801170"></p>
+<h2 id="&#x79E9;&#x548C;&#x68C0;&#x9A8C;">&#x79E9;&#x548C;&#x68C0;&#x9A8C;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114144205153.png" alt="image-20221114144205153"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114144426372.png" alt="image-20221114144426372"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114150701616.png" alt="image-20221114150701616"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114151021795.png" alt="image-20221114151021795"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114152301059.png" alt="image-20221114152301059"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114152705953.png" alt="image-20221114152705953"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114160107589.png" alt="image-20221114160107589"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114161525291.png" alt="image-20221114161525291"></p>
+<p>&#xFF08;&#x6837;&#x672C;&#x5BB9;&#x91CF;&#x4E00;&#x822C;&#x4E0D;&#x8003;&#xFF09;</p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114172058018.png" alt="image-20221114172058018"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114172954887.png" alt="image-20221114172954887"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114191854243.png" alt="image-20221114191854243"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114191927553.png" alt="image-20221114191927553"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114192445358.png" alt="image-20221114192445358"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114194134204.png" alt="image-20221114194134204"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114195220364.png" alt="image-20221114195220364"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114201520137.png" alt="image-20221114201520137"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114202437021.png" alt="image-20221114202437021"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114202523878.png" alt="image-20221114202523878"></p>
+<h1 id="&#x56DE;&#x5F52;&#x5206;&#x6790;">&#x56DE;&#x5F52;&#x5206;&#x6790;</h1>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221114204829835.png" alt="image-20221114204829835"></p>
+<h2 id="&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x5206;&#x6790;">&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x5206;&#x6790;</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112140121794.png" alt="image-20221112140121794"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112140728524.png" alt="image-20221112140728524"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112141435170.png" alt="image-20221112141435170"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112141550397.png" alt="image-20221112141550397"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112142852563.png" alt="image-20221112142852563"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221112142945800.png" alt="image-20221112142945800"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115101157027.png" alt="image-20221115101157027"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115102539313.png" alt="image-20221115102539313"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115102931986.png" alt="image-20221115102931986"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115103047390.png" alt="image-20221115103047390"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115105838739.png" alt="image-20221115105838739"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115110156236.png" alt="image-20221115110156236"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115165833519.png" alt="image-20221115165833519"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115165936003.png" alt="image-20221115165936003"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115180718338.png" alt="image-20221115180718338"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115191243519.png" alt="image-20221115191243519"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115192728930.png" alt="image-20221115192728930"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115193115556.png" alt="image-20221115193115556"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115193421351.png" alt="image-20221115193421351"></p>
+<p>&#x4E0D;&#x8003;</p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115193602422.png" alt="image-20221115193602422"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115194338172.png" alt="image-20221115194338172"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115194836447.png" alt="image-20221115194836447"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115202840850.png" alt="image-20221115202840850"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115204059618.png" alt="image-20221115204059618"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115204153434.png" alt="image-20221115204153434"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115204339368.png" alt="image-20221115204339368"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115204413944.png" alt="image-20221115204413944"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115205733722.png" alt="image-20221115205733722"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/image-20221115211715860.png" alt="image-20221115211715860"></p>
+<h1 id="&#x6570;&#x7406;&#x7EDF;&#x8BA1;&#x5E38;&#x7528;&#x516C;&#x5F0F;">&#x6570;&#x7406;&#x7EDF;&#x8BA1;&#x5E38;&#x7528;&#x516C;&#x5F0F;</h1>
+<p><img src="https://cdn.jsdelivr.net/gh/WINNERZR01/ImageHosting@main/writeimg/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.png" alt="&#x6570;&#x7406;&#x7EDF;&#x8BA1;&#x5E38;&#x7528;&#x516C;&#x5F0F;"></p>
+<p><footer class="page-footer"><span class="copyright">&#xA9; by winnerzr all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x6863;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-11-22 18:09:48
+</span></footer><hr><div id="vcomments"></div><script src="//unpkg.com/valine/dist/Valine.min.js"></script><script>new Valine({el: "#vcomments",appId: 'Pmai2zSyIldhmWIcUD2yFIcp-gzGzoHsz',appKey: 'TuPQ3Y38BG6lBdwDvl2cmMmb',placeholder: 'Just go go',avatar: '',meta: undefined,pageSize: 10,lang: 'zh-CN',recordIP: false})</script></p>
+
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="数值计算方法.html" class="navigation navigation-next " aria-label="Next page: 数值计算方法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"概率论与数理统计","level":"1.2","depth":1,"next":{"title":"数值计算方法","level":"1.3","depth":1,"path":"数值计算方法.md","ref":"数值计算方法.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["donate","tbfed-pagefooter","expandable-chapters-small","github","splitter","code","hide-element","-lunr","-search","search-pro","pageview-count","popup","-sharing","sharing-plus","valine"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy by winnerzr","modify_label":"该文档修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/WINNERZR01"},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"donate":{"alipay":"https://cdn.jsdelivr.net/gh/WINNERZR01/WINNERZR01-2022picturebed/writeimg/AliPayQR.png","alipayText":"支付宝","button":"Donate","title":"","wechat":"https://cdn.jsdelivr.net/gh/WINNERZR01/WINNERZR01-2022picturebed/writeimg/WeChatQR.png","wechatText":"微信"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["qq","twitter","weibo","douban"],"douban":true,"facebook":false,"weibo":true,"twitter":true,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"valine":{"avatar":"","lang":"zh-CN","pageSize":10,"placeholder":"Just go go","recordIP":false,"appId":"Pmai2zSyIldhmWIcUD2yFIcp-gzGzoHsz","appKey":"TuPQ3Y38BG6lBdwDvl2cmMmb"}},"theme":"default","author":"Winnerzr","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的Python笔记本","language":"zh-hans","gitbook":"*","description":"Winnerzr's Python notebook"},"file":{"path":"概率论与数理统计.md","mtime":"2022-11-22T10:09:48.192Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-22T10:42:07.350Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
