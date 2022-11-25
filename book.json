@@ -1,8 +1,8 @@
 {
     "root": ".",
-    "title": "我的Python笔记本",
+    "title": "我的速记本",
     "author": "Winnerzr",
-    "description": "Winnerzr's Python notebook",
+    "description": "Winnerzr's Quicknote",
     "language": "zh-hans",
     "plugins": [
         "donate",
@@ -19,7 +19,8 @@
         "popup",
         "-sharing",
         "sharing-plus",
-        "valine"
+        "valine",
+        "page-toc-button" 
     ],
     "pluginsConfig": {
         "donate": {
@@ -61,5 +62,9 @@
       "valine": {
         "appId": "Pmai2zSyIldhmWIcUD2yFIcp-gzGzoHsz",
         "appKey": "TuPQ3Y38BG6lBdwDvl2cmMmb"
-      }
+      },
+      "page-toc-button": {
+        "maxTocDepth": 2,
+        "minTocSize": 2
+       }
 }}
